@@ -1,9 +1,16 @@
-## code to prepare `data` dataset goes here
+#' Documentação da base dadosmr
+#'
+#'
+#'
+#'
+#' @docType data
+#' @name dadosmrpotec
+#' @aliases dadosmrpotec
+#'
+#' @description
+#' A short description...
+#'
+#' @author Felipe Smolski
+#' @format description
 
-
-library(fst)
-fst::read.fst("data-raw/dadosmrpotec.fst")
-
-
-usethis::use_data(dadosmrpotec, overwrite = TRUE)
-
+"dadosmrpotec"
